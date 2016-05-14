@@ -74,8 +74,10 @@ int main()
     Shader shader("shader.vs", "shader.frag");
 
     // Load models
-    Model ourModel("./nanosuit/nanosuit.obj");
+    //Model ourModel("./nanosuit/nanosuit.obj");
     //Model ourModel("./chairMesh.obj");
+
+    Model ourModel("./02/02.obj");
 
     // Draw in wireframe
     //glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
